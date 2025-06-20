@@ -12,6 +12,7 @@
     "lint:fix": "npm run lint:next -- --fix && npm run lint:prettier -- --write"
   },
   "dependencies": {
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "@genkit-ai/googleai": "^1.5.0",
     "cookies-next": "^5.1.0",
     "firebase": "^11.6.0",
